@@ -1,0 +1,95 @@
+/* font-family: "Libre Baskerville", serif; 
+font-family: "Roboto", sans-serif;
+*/
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.hero {
+    padding-bottom: 115px;
+}
+
+.header {
+    padding: 15px 0px;
+}
+
+.header__content {
+    display: flex;
+    column-gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+    column-gap: 40px;
+}
+
+.nav__item {}
+
+.nav__link {}
+
+.hero__main {}
+
+.hero__content {}
+
+.title {}
+
+.hero__desc {}
+
+.hero__btns {}
+
+.btn {}
+
+.btn_theme_green {}
+
+.btn_theme_white {}
+
+.hero__img-wrap {}
+
+.hero__img {}
